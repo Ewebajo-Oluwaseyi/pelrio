@@ -1,5 +1,4 @@
 import * as React from "react";
-import Style from "./TextInput.module.css";
 
 export default React.forwardRef(function TextInput(props, ref) {
   const { id, isInValid, validationMessage, type, value, onChange, ...rest } =
