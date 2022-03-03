@@ -1,0 +1,119 @@
+.headerWrapper {
+  position: relative;
+  min-height: 100vh;
+}
+
+.headerHead {
+  align-items: flex-start;
+  color: #00e8be;
+}
+
+.headerForm {
+  align-items: flex-start;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  flex-direction: column;
+  display: flex;
+}
+
+.header {
+  margin-bottom: 1.2rem;
+  width: 100%;
+}
+
+.header p {
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+  color: #bdbdbd;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.inputGroup {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.inputGroup .inputGroupIcon {
+  position: absolute;
+  top: 12px;
+  margin-left: 10px;
+  z-index: 2;
+  pointer-events: none;
+}
+.inputGroupinput {
+  width: 100%;
+  font-size: 14px;
+  color: #fafafa;
+  background-color: #202020;
+  border: 0;
+  height: 2.5rem;
+  appearance: none;
+  border-radius: 0.375rem;
+  padding-inline-start: 2.5rem;
+  padding-inline-end: 1rem;
+}
+.inputGroup input::placeholder {
+  color: #424242;
+}
+
+.buttonWrapper {
+  margin-top: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+.buttonWrapper .button {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.buttonWrapper .button button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  position: relative;
+  white-space: nowrap;
+  vertical-align: middle;
+  width: 100%;
+  min-width: 3rem;
+  border-radius: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  height: 3rem;
+  background: #e80e00;
+  color: #ffffff;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  transition-property: all;
+  transition-duration: 300ms;
+  border-width: 0px;
+  cursor: pointer;
+}
+.buttonWrapper .button button:hover {
+  background: transparent;
+  color: #e80e00;
+  border-color: #e80e00;
+  border-width: 1px;
+}
+
+.alertWrapper {
+  border-radius: 1em;
+  margin: 1em 0;
+  width: 90%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  overflow: hidden;
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background: rgba(254, 178, 178, 0.16);
+  font-size: 90%;
+  justify-content: space-between;
+}
+
+.alert {
+  display: flex;
+  align-items: center;
+}
